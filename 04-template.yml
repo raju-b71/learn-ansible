@@ -5,6 +5,3 @@
       ansible.builtin.copy:
       src: example.conf
       dest: /tmp/example-copy.conf
-
-
- #nniso
