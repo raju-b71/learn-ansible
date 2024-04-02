@@ -1,0 +1,13 @@
+- name: Demo on conditions
+  hosts: localhost
+  tasks:
+    - name: Vegetables
+      ansible.builtin.debug:
+        msg: vegetables
+        tags: vegetables
+
+
+    - name: fruits
+      ansible.builtin.debug:
+        msg: fruits
+        tags: fruits
