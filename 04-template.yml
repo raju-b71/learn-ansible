@@ -1,7 +1,7 @@
 - name: Demo in template
   hosts: localhost
   tasks:
-    - name: Copy Expense.conf
+    - name: Copy expense.conf
       ansible.builtin.copy:
       src: expense.conf
       dest: /tmp/expense-copy.conf
