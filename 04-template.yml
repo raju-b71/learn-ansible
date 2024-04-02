@@ -1,10 +1,10 @@
 - name: Demo in template
   hosts: localhost
   tasks:
-    - name: Copy exise.conf
+    - name: Copy example.conf
       ansible.builtin.copy:
-      src: exise.conf
-      dest: /tmp/exise-copy.conf
+      src: example.conf
+      dest: /tmp/example-copy.conf
 
 
  #nniso
