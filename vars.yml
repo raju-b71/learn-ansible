@@ -5,5 +5,5 @@
   tasks:
     - name: Print variable
       ansible.builtin.debug:
-        MSG: URL_PLAY - {{ URL_PLAY }}
+        msg: URL_PLAY - {{ URL_PLAY }}
 
