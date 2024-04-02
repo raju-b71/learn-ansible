@@ -1,9 +1,9 @@
 - name: Demo on vars
-  hosts: localhost
+  hosts: localhosts
   vars:
-    URL_PLAY: play.example.com
+    URL_PLAY=play.example.com
   tasks:
-    - name: Print variable
+    - name: vars
       ansible.builtin.debug:
-        msg: URL_PLAY - {{ URL_PLAY }}
+        MSG: URL_PLAY - {{ URL_PLAY }}
 
