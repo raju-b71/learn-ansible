@@ -10,7 +10,7 @@
       ansible.builtin.debug:
         msg: URL_TASK - {{ URL_TASK }}
       vars:
-        URL_TASKS: tasks.example.com
+        URL_TASK: tasks.example.com
 
 
 #play level variables can be acessed by all the tasks and roles
