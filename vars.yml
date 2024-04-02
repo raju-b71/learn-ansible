@@ -3,7 +3,7 @@
   vars:
   URL_PLAY: play.example.com
   tasks:
-  - name: Print Variable
+  - name: Print variable
     ansible.builtin.debug:
       msg: URL_PLAY - {{ URL_PLAY }}
 
